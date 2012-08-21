@@ -1,0 +1,58 @@
+@import url(http://fonts.googleapis.com/css?family=Sorts+Mill+Goudy:400,400italic&subset=latin,latin-ext);
+
+#front-main #postcodeForm div input#submit {
+//   
+    width: 25%;
+}
+
+#front-main #postcodeForm div input#pc {
+//    width: 21.5em; 
+    width: 75%;
+}
+
+#front-main #postcodeForm div {
+    width: 27em;
+}
+body {
+  background: #1A1A1A url(/cobrands/fixmystreet/images/tile.jpg) 0 0 repeat;
+}
+#front-main {
+  background: $primary url(/cobrands/fixmystreet/images/tile-y.jpg);
+}
+#main-nav ul li a {
+    /* hild1 */
+    color: white;
+}
+#site-logo {
+    top: 3.25em;
+}
+
+body.frontpage #site-logo {
+    width: 300px;
+    height: 85px;
+    background: url("/cobrands/hild1/images/FiksGataMi2.png") no-repeat scroll 0px 0px transparent;
+}
+
+body.frontpage #site-header {
+    height: 9em;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sorts Mill Goudy', serif;
+    font-weight: bold;
+
+}
+
+#main-nav ul#mysoc-menu li a#mysoc-logo {
+    background-image: none; 
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-position: 0px 0px;
+    width: 5em;
+    text-indent: 0px;
+}
+
+
+//#main-nav ul#mysoc-menu {
+//    display:none;
+//}
