@@ -31,7 +31,7 @@ install_nginx
 install_postfix
 
 # Check out the current released version
-su -l -c "cd '$REPOSITORY' && git checkout '$VERSION'" "$UNIX_USER"
+#su -l -c "cd '$REPOSITORY' && git checkout '$VERSION'" "$UNIX_USER"
 
 install_website_packages
 
