@@ -5,7 +5,7 @@ libcache-memcached-perl
 libcatalyst-devel-perl
 libcatalyst-modules-extra-perl
 libcatalyst-modules-perl
-libcatalyst-perl (5.90015-1, expected: 5.80031)
+libcatalyst-perl
 libcatalyst-plugin-smarturi-perl
 libcatalyst-plugin-unicode-encoding-perl
 libcatalyst-view-tt-perl
@@ -19,7 +19,7 @@ libdatetime-format-pg-perl
 libdatetime-format-w3cdtf-perl
 libdatetime-perl
 libdatetime-timezone-perl
-libdbd-pg-perl (2.19.2-2, expected: 2.9.2)
+libdbd-pg-perl
 libdbi-perl
 libdbix-class
 libdbix-class-encodedcolumn-perl
