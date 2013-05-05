@@ -62,12 +62,12 @@ crontab $TEMPORARY_CRONTAB
 # Install the compass gem locally - it's required for generating the
 # CSS:
 
-export GEM_HOME="$DIRECTORY/gems"
-mkdir -p "$GEM_HOME"
-export GEM_PATH=
-export PATH="$GEM_HOME/bin:$PATH"
+#export GEM_HOME="$DIRECTORY/gems"
+#mkdir -p "$GEM_HOME"
+#export GEM_PATH=
+#export PATH="$GEM_HOME/bin:$PATH"
 
-gem install --no-ri --no-rdoc compass
+#gem install --no-ri --no-rdoc compass
 
 # Use compass to generate the CSS, if it doesn't seem to already
 # exist:
@@ -101,8 +101,8 @@ fi
 
 # Install the required Perl modules - this may take a very long time:
 
-cd "$REPOSITORY"
-bin/install_perl_modules
+#cd "$REPOSITORY"
+#bin/install_perl_modules
 
 # Generate po and mo files (these invocations taken from Kagee's script):
 
