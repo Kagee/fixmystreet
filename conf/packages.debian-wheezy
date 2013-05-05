@@ -21,8 +21,8 @@ libdatetime-perl
 libdatetime-timezone-perl
 libdbd-pg-perl
 libdbi-perl
-libdbix-class
 libdbix-class-encodedcolumn-perl
+libdbix-class-perl
 libdbix-class-schema-loader-perl
 libdigest-md5-perl
 libdigest-sha-perl
@@ -43,6 +43,7 @@ libjson-perl
 libjson-xs-perl
 liblist-moreutils-perl
 liblocale-gettext-perl
+liblocal-lib-perl
 libmath-bigint-gmp-perl
 libmath-complex-perl
 libmodule-pluggable-perl
@@ -77,4 +78,5 @@ perlmagick
 postgresql-9.1
 postgresql-server-dev-9.1
 ruby-compass
+starman
 ttf-bitstream-vera
